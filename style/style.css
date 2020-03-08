@@ -41,3 +41,12 @@
 #lineaProfesional {
     color: #d95d9a;
 }
+
+@media screen and (max-width: 576px) {
+    .ubicacion div:nth-child(1) {
+        order: 2;
+    }
+    .ubicacion div:nth-child(2) {
+        order: 1;
+    }
+}
